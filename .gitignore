@@ -1,0 +1,6 @@
+*.csv
+*.log
+
+.env
+env/
+.vscode/

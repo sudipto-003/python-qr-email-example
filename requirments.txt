@@ -1,0 +1,5 @@
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+pypng==0.0.20
+PyQRCode==1.2.1
+python-dotenv==0.14.0

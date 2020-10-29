@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h3>Hello {{ data["Full Name"] }},</h3>
+        <br>
+        <p>
+            Your reservation for the following show has been booked successfully.<br>
+            <strong>
+                Date: {{ data["Date"] }}<br>
+                Time: {{ data["Showtime"] }}<br>
+                Hall: {{ data["Hall"] }}<br>
+                You can use the following QR code as an ease method for fellow authentication.<br>
+                <img src="cid:{{ asparagus_cid }}"><br>
+            </strong>
+        </p>
+        <h3>Thank you for being with us</h3>
+        <p>This is an automated genrated mail. For any inconvience send feedback at feedback@myjob.com</p>
+    </body>
+</html>
